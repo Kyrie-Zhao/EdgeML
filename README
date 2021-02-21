@@ -1,0 +1,17 @@
+Getting Started
+Branchy_VGG:
+Download Cifar-10 dataset and locate it in './data/cifar-10-python/cifar-10-batches-py' folder
+python --phase train
+python --phase test
+You can set hyperparameters such as epochs and learning rate by adding arguments (check main function in solver.py)
+The model structure is located in VGG.py
+
+VggNet_Cifar_10_RL
+Download Cifar-10 dataset and locate it in './data/cifar-10-python/cifar-10-batches-py' folder
+for server:
+python environment.py
+for client:
+python MODEL/Client/solver.py
+IP settings can be found in solver.py (for both server and client)
+
+For more information, contact Zhihe Zhao via zz208@duke.edu
